@@ -1,9 +1,7 @@
 public class CollinearPoints{
 
-
     static boolean  fun(int[] x, int[] y )
     {
-       
         int n = x.length;
         
         for(int i = 0 ;    i < n-2;  i++)
@@ -24,9 +22,11 @@ public class CollinearPoints{
         int[] y = {19,2,33,4,66,79,99};
         
         boolean s = fun(x,y);
+        
         if(s)
             System.out.println("There are 3 collinear points");
         else
             System.out.println("There are no 3 collinear points");
     }
+
 }
